@@ -50,7 +50,9 @@ class is_tax_unit_spouse(Variable):
 
     def formula(person, period, parameters):
         # Use order of input (second)
-        return person.tax_unit.members_position == 1
+        return (person("age", period) > 18) & (
+            person.tax_unit.members_position == 1
+        )
 
 
 class is_tax_unit_dependent(Variable):
