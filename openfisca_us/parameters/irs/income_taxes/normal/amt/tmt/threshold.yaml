@@ -1,0 +1,12 @@
+description: Threshold for the TMT higher rate
+values:
+  2011-01-01: 175_000
+metadata:
+  unit: currency-GBP
+  uprating:
+    parameter: bls.tax_year_cpi
+    rounding:
+      absolute: 100
+  reference:
+    - title: U.S.C Title 26 § 55(b)(1)(A)(i)
+      href: https://www.law.cornell.edu/uscode/text/26/55#b_1_A_i

@@ -1,0 +1,8 @@
+description: Higher rate for the tentative minimum tax
+values:
+  2010-01-01: 0.28
+metadata:
+  unit: /1
+  reference:
+    - title: U.S.C Title 26 § 55(b)(1)(A)(i)
+      href: https://www.law.cornell.edu/uscode/text/26/55#b_1_A_ii

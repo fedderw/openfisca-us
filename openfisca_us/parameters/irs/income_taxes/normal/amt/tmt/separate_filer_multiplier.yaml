@@ -1,0 +1,8 @@
+description: Multiplier to the TMT threshold for joint filers
+values:
+  2010-01-01: 0.5
+metadata:
+  unit: /1
+  reference:
+    - title: U.S.C Title 26 § 55(b)(1)(C)
+      href: https://www.law.cornell.edu/uscode/text/26/55#b_1_C
